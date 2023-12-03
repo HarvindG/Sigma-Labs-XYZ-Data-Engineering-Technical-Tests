@@ -20,5 +20,7 @@ def test_sum_current_time_invalid_hour2():
     assert sum_current_time("-1:00:00") == "Invalid time input"
 
 
-def test_sum_current_time_invalid_hour2():
+def test_sum_current_time_invalid_hour3():
     assert sum_current_time("") == "Invalid time input"
+
+
